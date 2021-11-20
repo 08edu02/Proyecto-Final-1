@@ -1,0 +1,15 @@
+﻿  biblioteca1.cpp
+  principal.cpp
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(38,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(41,28): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,136): warning C4101: 'precio_finaligv': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,97): warning C4101: 'lote1': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(28,225): warning C4101: 'lote_escogido': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,110): warning C4101: 'lote2': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,29): warning C4101: 'lotetemp': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,6): warning C4101: 'opcion2': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,123): warning C4101: 'lote3': variable local sin referencia
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(24,54): warning C4101: 'cantidades': variable local sin referencia
+  Proyecto Final 1.cpp
+  Generando código...
+  Proyecto Final 1.vcxproj -> C:\Users\admin\Documents\Proyecto Final 1\Debug\Proyecto Final 1.exe
