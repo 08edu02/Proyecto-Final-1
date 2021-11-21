@@ -139,8 +139,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 2:
 
@@ -182,8 +182,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 3:
 
@@ -225,8 +225,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 4:
 
@@ -265,15 +265,15 @@ int main() {
 										_getch();
 										system("cls");
 									}
-
 								}
 							}
-						_getch();
-						break;
+
+							_getch();
+							break;
 
 						}
-						_getch();
-						break;
+					_getch();
+					//break;
 
 					case '2':
 						system("cls");
@@ -332,8 +332,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 2:
 
@@ -375,8 +375,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 3:
 
@@ -418,8 +418,8 @@ int main() {
 								}
 							}
 
-						_getch();
-						break;
+							_getch();
+							break;
 
 						case 4:
 
@@ -461,28 +461,12 @@ int main() {
 
 								}
 							}
-						_getch();
-						break;
+							_getch();
+							//break;
 						
 						}
-
-						/*cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-						//	cin.get(); 
-						//	cin.getline(cant_product, 2, '\n');
-						num_cantproduct = atoi(cant_product);
-
-						if (strcmp(cant_product, n1) != 0 && strcmp(cant_product, n2) != 0) {
-							do {
-								cout << "\nSiendo usuario solo puede comprar dos productos como máximo: "; cin >> cant_product;
-								//	cin.get(); 
-								//	cin.getline(cant_product, 2, '\n');
-								num_cantproduct = atoi(cant_product);
-							} while (num_cantproduct > 2 || num_cantproduct <= 0);
-						}
-
-						system("cls");
-						cout << "Cantidad correcta de productos.";*/
-						break;
+						//break;
+						//break;
 					}
 
 				}
