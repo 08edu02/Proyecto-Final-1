@@ -70,7 +70,6 @@ int main() {
 				}
 
 				if (strcmp(compra_opcion, compra_si) == 0) {
-
 					cout << "\nMétodo de pago: \n";
 					cout << "\n1. Tarjeta de crédito.";
 					cout << "\n2. Efectivo o transferencia (-5%).";
@@ -109,7 +108,6 @@ int main() {
 							}
 							else {
 								if (i13pmc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -155,7 +153,6 @@ int main() {
 							}
 							else {
 								if (s21pc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -201,7 +198,6 @@ int main() {
 							}
 							else {
 								if (xm11uc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -247,7 +243,6 @@ int main() {
 							}
 							else {
 								if (ncantprod1 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -314,7 +309,6 @@ int main() {
 							}
 							else {
 								if (i13pmc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -360,7 +354,6 @@ int main() {
 							}
 							else {
 								if (s21pc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -406,7 +399,6 @@ int main() {
 							}
 							else {
 								if (xm11uc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -452,7 +444,6 @@ int main() {
 							}
 							else {
 								if (ncantprod1 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -495,7 +486,6 @@ int main() {
 				}
 				else {
 					if (strcmp(compra_opcion, compra_no) == 0) {
-
 						system("cls");
 						cout << "Gracias por usar el programa, hasta luego.";
 						cin.get();
@@ -524,7 +514,6 @@ int main() {
 				}
 
 				if (strcmp(compra_opcion, compra_si) == 0) {
-
 					cout << "\nMétodo de pago: \n";
 					cout << "\n1. Tarjeta de crédito.";
 					cout << "\n2. Efectivo o transferencia (-5%).";
@@ -563,7 +552,6 @@ int main() {
 							}
 							else {
 								if (r75800xc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -609,7 +597,6 @@ int main() {
 							}
 							else {
 								if (i911900kc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -655,7 +642,6 @@ int main() {
 							}
 							else {
 								if (tr3995wxc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -701,7 +687,6 @@ int main() {
 							}
 							else {
 								if (iw3375c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -747,7 +732,6 @@ int main() {
 							}
 							else {
 								if (ncantprod2 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -813,7 +797,6 @@ int main() {
 							}
 							else {
 								if (r75800xc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -859,7 +842,6 @@ int main() {
 							}
 							else {
 								if (i911900kc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -905,7 +887,6 @@ int main() {
 							}
 							else {
 								if (tr3995wxc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -951,7 +932,6 @@ int main() {
 							}
 							else {
 								if (iw3375c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -997,7 +977,6 @@ int main() {
 							}
 							else {
 								if (ncantprod2 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1040,7 +1019,6 @@ int main() {
 				}
 				else {
 					if (strcmp(compra_opcion, compra_no) == 0) {
-
 						system("cls");
 						cout << "Gracias por usar el programa, hasta luego.";
 						cin.get();
@@ -1070,7 +1048,6 @@ int main() {
 				}
 
 				if (strcmp(compra_opcion, compra_si) == 0) {
-
 					cout << "\nMétodo de pago: \n";
 					cout << "\n1. Tarjeta de crédito.";
 					cout << "\n2. Efectivo o transferencia (-5%).";
@@ -1109,7 +1086,6 @@ int main() {
 							}
 							else {
 								if (rtx3060c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1155,7 +1131,6 @@ int main() {
 							}
 							else {
 								if (rx6800c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1201,7 +1176,6 @@ int main() {
 							}
 							else {
 								if (rtx3070tic > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1247,7 +1221,6 @@ int main() {
 							}
 							else {
 								if (rx6900xtc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1293,7 +1266,6 @@ int main() {
 							}
 							else {
 								if (rtx3090c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1339,7 +1311,6 @@ int main() {
 							}
 							else {
 								if (ncantprod3 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1406,7 +1377,6 @@ int main() {
 							}
 							else {
 								if (rtx3060c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1452,7 +1422,6 @@ int main() {
 							}
 							else {
 								if (rx6800c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1498,7 +1467,6 @@ int main() {
 							}
 							else {
 								if (rtx3070tic > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1544,7 +1512,6 @@ int main() {
 							}
 							else {
 								if (rx6900xtc > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1590,7 +1557,6 @@ int main() {
 							}
 							else {
 								if (rtx3090c > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1636,7 +1602,6 @@ int main() {
 							}
 							else {
 								if (ncantprod3 > 0) {
-
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
 
@@ -1679,7 +1644,6 @@ int main() {
 				}
 				else {
 					if (strcmp(compra_opcion, compra_no) == 0) {
-
 						system("cls");
 						cout << "Gracias por usar el programa, hasta luego.\n";
 						cin.get();
@@ -1687,7 +1651,6 @@ int main() {
 					}
 					else {
 						if ((strcmp(compra_opcion, compra_si) != 0) && (strcmp(compra_opcion, compra_no) != 0)) {
-
 							system("cls");
 							cout << "Se ingresó una opción de compra no válida, volver a ejecutar el programa.\n";
 							cin.get();
@@ -1716,7 +1679,6 @@ int main() {
 				if (usuario == usuario_correcto) {
 					cout << "\tContraseña: "; cin >> contra;
 					if (contra == contra_correcta) {
-
 						system("cls");
 						verificador1 = true;
 						cout << "\tLogin exitoso, presione una tecla para continuar.";
@@ -1724,7 +1686,6 @@ int main() {
 					}
 					else {
 						if (contra != contra_correcta) {
-
 							verificador1 = false;
 							contador++;
 							cout << "\n\tContraseña incorrecta, le queda " << 5 - contador << " intentos. Presione una tecla para volver a intentar.";
@@ -1735,7 +1696,6 @@ int main() {
 				}
 				else {
 					if (usuario != usuario_correcto) {
-
 						verificador1 = false;
 						contador++;
 						cout << "\n\tUsuario incorrecto, le queda " << 5 - contador << " intentos. Presione una tecla para volver a intentar.";
@@ -1756,7 +1716,6 @@ int main() {
 					switch (opcion3[0]) {
 					case '1':
 						if (num_aleatorio >= 1 && num_aleatorio <= 20) {
-
 							verificador2 = true;
 							cout << "Lote número 1, que pertenece a celulares: ";
 							Lote1(i13pm, s21p, xm11u, i13pmc, s21pc, xm11uc, nombreprod1, ncantprod1, nprecioprod1);
@@ -1764,7 +1723,6 @@ int main() {
 						}
 						else {
 							if (num_aleatorio >= 21 && num_aleatorio <= 40) {
-
 								verificador2 = true;
 								cout << "Lote número 2, que pertenece a procesadores: ";
 								Lote2(r75800x, i911900k, tr3995wx, iw3375, r75800xc, i911900kc, tr3995wxc, iw3375c, nombreprod2, ncantprod2, nprecioprod2);
@@ -1772,7 +1730,6 @@ int main() {
 							}
 							else {
 								if (num_aleatorio >= 41 && num_aleatorio <= 60) {
-
 									verificador2 = true;
 									cout << "Lote número 3, que pertenece a tarjetas de vídeo: ";
 									Lote3(rtx3060, rx6800, rtx3070ti, rx6900xt, rtx3090, rtx3060c, rx6800c, rtx3070tic, rx6900xtc, rtx3090c, nombreprod3, ncantprod3, nprecioprod3);
@@ -1783,7 +1740,6 @@ int main() {
 						break;
 					case '2':
 						if (num_aleatorio >= 1 && num_aleatorio <= 20) {
-
 							verificador2 = true;
 							precio_lotem1 = Precio_lote1(i13pm, s21p, xm11u, i13pmc, s21pc, xm11uc, ncantprod1, nprecioprod1);
 							precioe_lotem1 = precio_lotem1 * 0.8;
@@ -1795,7 +1751,6 @@ int main() {
 						}
 						else {
 							if (num_aleatorio >= 21 && num_aleatorio <= 40) {
-
 								verificador2 = true;
 								precio_lotem2 = Precio_lote2(r75800x, i911900k, tr3995wx, iw3375, r75800xc, i911900kc, tr3995wxc, iw3375c, ncantprod2, nprecioprod2);
 								precioe_lotem2 = precio_lotem2 * 0.8;
@@ -1807,7 +1762,6 @@ int main() {
 							}
 							else {
 								if (num_aleatorio >= 41 && num_aleatorio <= 60) {
-
 									verificador2 = true;
 									precio_lotem3 = Precio_lote3(rtx3060, rx6800, rtx3070ti, rx6900xt, rtx3090, rtx3060c, rx6800c, rtx3070tic, rx6900xtc, rtx3090c, ncantprod3, nprecioprod3);
 									precioe_lotem3 = precio_lotem3 * 0.8;
@@ -1885,7 +1839,6 @@ int main() {
 								}
 							}
 
-
 							break;
 
 						case '2':
@@ -1893,7 +1846,6 @@ int main() {
 							cout << "Caso 2.\n";
 
 							if (num_aleatorio >= 1 && num_aleatorio <= 20) {
-
 								cout << "Lote número 1, que pertenece a celulares: ";
 								Lote1(i13pm, s21p, xm11u, i13pmc, s21pc, xm11uc, nombreprod1, ncantprod1, nprecioprod1);
 								cout << "\n\n¿Que desea comprar y en que cantidad?";
@@ -1915,7 +1867,6 @@ int main() {
 									}
 									else {
 										if (i13pmc > 0) {
-
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
 
@@ -1939,7 +1890,6 @@ int main() {
 									}
 									else {
 										if (s21pc > 0) {
-
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
 
@@ -1963,7 +1913,6 @@ int main() {
 									}
 									else {
 										if (xm11uc > 0) {
-
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
 
@@ -1987,7 +1936,6 @@ int main() {
 									}
 									else {
 										if (ncantprod1 > 0) {
-
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
 
@@ -1999,7 +1947,6 @@ int main() {
 											ncantprod1 -= num_cantproduct;
 											cout << "Cantidad correcta de productos.";
 										}
-
 									}
 
 									_getch();
@@ -2010,7 +1957,6 @@ int main() {
 							}
 							else {
 								if (num_aleatorio >= 21 && num_aleatorio <= 40) {
-
 									cout << "Lote número 2, que pertenece a procesadores: ";
 									Lote2(r75800x, i911900k, tr3995wx, iw3375, r75800xc, i911900kc, tr3995wxc, iw3375c, nombreprod2, ncantprod2, nprecioprod2);
 
@@ -2032,7 +1978,6 @@ int main() {
 										}
 										else {
 											if (r75800xc > 0) {
-
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
 
@@ -2056,7 +2001,6 @@ int main() {
 										}
 										else {
 											if (i911900kc > 0) {
-
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
 
@@ -2080,7 +2024,6 @@ int main() {
 										}
 										else {
 											if (tr3995wxc > 0) {
-
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
 
@@ -2104,7 +2047,6 @@ int main() {
 										}
 										else {
 											if (iw3375c > 0) {
-
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
 
@@ -2128,7 +2070,6 @@ int main() {
 										}
 										else {
 											if (ncantprod2 > 0) {
-
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
 
@@ -2172,7 +2113,6 @@ int main() {
 											}
 											else {
 												if (rtx3060c > 0) {
-
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
@@ -2196,7 +2136,6 @@ int main() {
 											}
 											else {
 												if (rx6800c > 0) {
-
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
@@ -2220,7 +2159,6 @@ int main() {
 											}
 											else {
 												if(rtx3070tic > 0){
-
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
@@ -2244,7 +2182,6 @@ int main() {
 											}
 											else {
 												if (rx6900xtc > 0) {
-
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
@@ -2268,7 +2205,6 @@ int main() {
 											}
 											else {
 												if (rtx3090c > 0) {
-
 													cout << "Ingresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
@@ -2292,7 +2228,6 @@ int main() {
 											}
 											else {
 												if (ncantprod3 > 0) {
-
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
 
