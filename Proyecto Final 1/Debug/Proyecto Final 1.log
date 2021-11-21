@@ -31,11 +31,4 @@ C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1552,46
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1599,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1646,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1694,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,97): warning C4101: 'lote1': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(27,225): warning C4101: 'lote_escogido': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,110): warning C4101: 'lote2': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,29): warning C4101: 'lotetemp': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,6): warning C4101: 'opcion2': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,123): warning C4101: 'lote3': variable local sin referencia
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,54): warning C4101: 'cantidades': variable local sin referencia
   Proyecto Final 1.vcxproj -> C:\Users\admin\Documents\Proyecto Final 1\Debug\Proyecto Final 1.exe
