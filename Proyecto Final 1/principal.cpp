@@ -15,7 +15,6 @@
 #include<math.h>
 #include"biblioteca1.h"
 #include<cstdlib>
-// probando
 using namespace std;
 
 int main() {
@@ -36,7 +35,6 @@ int main() {
 		verificador3 = true;
 		opcion1[0] = Menu1();
 		srand(time(NULL));
-		//	lote1 = 1 + rand()%(100); // (variable donde se almacena) = lim_inf + rand()%(lim_sup +1 -lim_inf);
 		num_aleatorio = 1 + rand() % (60);
 		dinero_almacenado = 1600 + rand() % (38401);
 
@@ -899,7 +897,6 @@ int main() {
 							break;
 						}
 
-						//cin.get();
 						break;
 
 					case '4':
@@ -1033,17 +1030,6 @@ int main() {
 				cout << "Salida exitosa.";
 				break;
 			}
-
-			//default:
-			//	if(opcion1 != 1 && opcion1 != 2 && opcion1 !=3){
-
-			//		system("cls");
-			//		cout<<"Se ingresó: '"<<opcion1<<"' ,una opción no válida. Volver a ejecutar el programa.\n";
-			//		cin.get();	
-
-			//	}
-			//break;
-			//Se está probando con la validacion desde la misma funcion de menu1
 		}
 
 	} while (verificador3 == false);
