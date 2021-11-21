@@ -20,7 +20,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "");
 	system("color e0");
-	int contador = 0, num_aleatorio, num_cantproduct, num_product2, i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0;
+	int contador = 0, num_aleatorio, num_cantproduct, num_product2, i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0, prod1m[3], prod2m[3], prod3m[3];
 	float dinero_almacenado = 0;
 	string usuario_correcto = "user", contra_correcta = "1234", usuario, contra;
 	double precio_lotem1 = 0, precio_lotem2 = 0, precio_lotem3 = 0, precioe_lotem1 = 0, precioe_lotem2 = 0, precioe_lotem3 = 0, precio_loteactual = 0, precio_final1, precio_finaligv;
@@ -2378,6 +2378,8 @@ int main() {
 							nprecioprod1 = atoi(precioprod1);
 						}
 
+						prod1m[0] = ncantprod1;
+						prod1m[1] = nprecioprod1;
 						cout << "\nProducto uno finalizado.";
 						_getch();
 						system("cls");
@@ -2404,6 +2406,8 @@ int main() {
 							nprecioprod2 = atoi(precioprod2);
 						}
 
+						prod2m[0] = ncantprod2;
+						prod2m[1] = nprecioprod2;
 						cout << "\nProducto dos finalizado.";
 						_getch();
 						system("cls");
@@ -2430,6 +2434,8 @@ int main() {
 							nprecioprod3 = atoi(precioprod3);
 						}
 
+						prod3m[0] = ncantprod3;
+						prod3m[1] = nprecioprod3;
 						system("cls");
 						cout << "Los tres productos ya fueron ingresados al sistema. \nVolviendo al menú principal.";
 						verificador3 = false;
