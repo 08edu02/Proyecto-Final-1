@@ -109,7 +109,6 @@ int main() {
 							}
 							else {
 								if (i13pmc > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -156,7 +155,6 @@ int main() {
 							}
 							else {
 								if (s21pc > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -203,7 +201,6 @@ int main() {
 							}
 							else {
 								if (xm11uc > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -250,7 +247,6 @@ int main() {
 							}
 							else {
 								if (ncantprod1 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -318,7 +314,6 @@ int main() {
 							}
 							else {
 								if (i13pmc > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -365,7 +360,6 @@ int main() {
 							}
 							else {
 								if (s21pc > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -412,7 +406,6 @@ int main() {
 							}
 							else {
 								if (xm11uc > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -459,7 +452,6 @@ int main() {
 							}
 							else {
 								if (ncantprod1 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -573,7 +565,6 @@ int main() {
 							}
 							else {
 								if (r75800xc > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -620,7 +611,6 @@ int main() {
 							}
 							else {
 								if (i911900kc > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -667,7 +657,6 @@ int main() {
 							}
 							else {
 								if (tr3995wxc > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -714,7 +703,6 @@ int main() {
 							}
 							else {
 								if (iw3375c > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -762,7 +750,6 @@ int main() {
 							}
 							else {
 								if (ncantprod2 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -831,7 +818,6 @@ int main() {
 							}
 							else {
 								if (r75800xc > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -878,7 +864,6 @@ int main() {
 							}
 							else {
 								if (i911900kc > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -925,7 +910,6 @@ int main() {
 							}
 							else {
 								if (tr3995wxc > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -972,7 +956,6 @@ int main() {
 							}
 							else {
 								if (iw3375c > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1020,7 +1003,6 @@ int main() {
 							}
 							else {
 								if (ncantprod2 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1135,7 +1117,6 @@ int main() {
 							}
 							else {
 								if (rtx3060c > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1182,7 +1163,6 @@ int main() {
 							}
 							else {
 								if (rx6800c > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1229,7 +1209,6 @@ int main() {
 							}
 							else {
 								if (rtx3070tic > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1276,7 +1255,6 @@ int main() {
 							}
 							else {
 								if (rx6900xtc > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1323,7 +1301,6 @@ int main() {
 							}
 							else {
 								if (rtx3090c > 0) {
-									cout << "\nHola5.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1372,7 +1349,6 @@ int main() {
 							}
 							else {
 								if (ncantprod3 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1440,7 +1416,6 @@ int main() {
 							}
 							else {
 								if (rtx3060c > 0) {
-									cout << "\nHola1.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1487,7 +1462,6 @@ int main() {
 							}
 							else {
 								if (rx6800c > 0) {
-									cout << "\nHola2.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1534,7 +1508,6 @@ int main() {
 							}
 							else {
 								if (rtx3070tic > 0) {
-									cout << "\nHola3.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1581,7 +1554,6 @@ int main() {
 							}
 							else {
 								if (rx6900xtc > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1628,7 +1600,6 @@ int main() {
 							}
 							else {
 								if (rtx3090c > 0) {
-									cout << "\nHola5.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1676,7 +1647,6 @@ int main() {
 							}
 							else {
 								if (ncantprod3 > 0) {
-									cout << "\nHola4.";
 
 									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 									num_cantproduct = atoi(cant_product);
@@ -1960,7 +1930,6 @@ int main() {
 									}
 									else {
 										if (i13pmc > 0) {
-											cout << "\nHola1.";
 
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
@@ -1985,7 +1954,6 @@ int main() {
 									}
 									else {
 										if (s21pc > 0) {
-											cout << "\nHola2.";
 
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
@@ -2010,7 +1978,6 @@ int main() {
 									}
 									else {
 										if (xm11uc > 0) {
-											cout << "\nHola3.";
 
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
@@ -2035,7 +2002,6 @@ int main() {
 									}
 									else {
 										if (ncantprod1 > 0) {
-											cout << "\nHola4.";
 
 											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 											num_cantproduct = atoi(cant_product);
@@ -2081,7 +2047,6 @@ int main() {
 										}
 										else {
 											if (r75800xc > 0) {
-												cout << "\nHola1.";
 
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
@@ -2106,7 +2071,6 @@ int main() {
 										}
 										else {
 											if (i911900kc > 0) {
-												cout << "\nHola2.";
 
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
@@ -2131,7 +2095,6 @@ int main() {
 										}
 										else {
 											if (tr3995wxc > 0) {
-												cout << "\nHola3.";
 
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
@@ -2156,7 +2119,6 @@ int main() {
 										}
 										else {
 											if (iw3375c > 0) {
-												cout << "\nHola4.";
 
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
@@ -2181,7 +2143,6 @@ int main() {
 										}
 										else {
 											if (ncantprod2 > 0) {
-												cout << "\nHola5.";
 
 												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 												num_cantproduct = atoi(cant_product);
@@ -2228,7 +2189,6 @@ int main() {
 											}
 											else {
 												if (rtx3060c > 0) {
-													cout << "\nHola1.";
 
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
@@ -2253,7 +2213,6 @@ int main() {
 											}
 											else {
 												if (rx6800c > 0) {
-													cout << "\nHola2.";
 
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
@@ -2278,7 +2237,6 @@ int main() {
 											}
 											else {
 												if(rtx3070tic > 0){
-													cout << "\nHola3.";
 
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
@@ -2303,7 +2261,6 @@ int main() {
 											}
 											else {
 												if (rx6900xtc > 0) {
-													cout << "\nHola4.";
 
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
@@ -2328,7 +2285,6 @@ int main() {
 											}
 											else {
 												if (rtx3090c > 0) {
-													cout << " \nHola5.";
 
 													cout << "Ingresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
@@ -2353,7 +2309,6 @@ int main() {
 											}
 											else {
 												if (ncantprod3 > 0) {
-													cout << "\nHola5.";
 
 													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 													num_cantproduct = atoi(cant_product);
