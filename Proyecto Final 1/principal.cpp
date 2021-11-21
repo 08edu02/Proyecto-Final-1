@@ -18,7 +18,7 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, ""); //tildes
+	setlocale(LC_ALL, "");
 	system("color e0");
 	int contador = 0, num_aleatorio, num_cantproduct, num_product2, i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0;
 	float dinero_almacenado = 0;
@@ -738,8 +738,7 @@ int main() {
 
 							_getch();
 							break;
-						
-						//
+
 						case 5:
 
 							if (ncantprod2 <= 0) {
@@ -780,12 +779,10 @@ int main() {
 										_getch();
 										system("cls");
 									}
-
 								}
 							}
 							_getch();
 							break;
-
 
 						}
 
@@ -992,7 +989,6 @@ int main() {
 							_getch();
 							break;
 
-							//
 						case 5:
 
 							if (ncantprod2 <= 0) {
@@ -1038,8 +1034,6 @@ int main() {
 							}
 							_getch();
 							break;
-
-
 
 						}
 
@@ -1337,8 +1331,6 @@ int main() {
 							_getch();
 							break;
 
-
-						//case 6
 						case 6:
 
 							if (ncantprod3 <= 0) {
@@ -1636,7 +1628,6 @@ int main() {
 							_getch();
 							break;
 
-							//
 						case 6:
 
 							if (ncantprod3 <= 0) {
@@ -1682,8 +1673,6 @@ int main() {
 							}
 							_getch();
 							break;
-
-
 
 						}
 
@@ -1758,8 +1747,6 @@ int main() {
 				}
 
 			} while (contador < 5 && verificador1 == false && contador != 0);
-
-			// aca se puede continuar con el case 2
 
 			do {
 
@@ -2155,12 +2142,10 @@ int main() {
 												ncantprod2 -= num_cantproduct;
 												cout << "Cantidad correcta de productos.";
 											}
-
 										}
 
 										_getch();
 										break;
-
 									}
 
 									_getch();
@@ -2321,12 +2306,10 @@ int main() {
 													ncantprod3 -= num_cantproduct;
 													cout << "Cantidad correcta de productos.";
 												}
-
 											}
 
 											_getch();
 											break;
-
 
 										}
 
