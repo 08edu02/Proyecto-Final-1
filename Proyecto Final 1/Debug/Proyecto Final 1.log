@@ -1,30 +1,29 @@
 ﻿  principal.cpp
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(37,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(39,28): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(124,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(167,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(210,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(290,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(333,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(376,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(502,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(545,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(588,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(631,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(695,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(738,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(781,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(824,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(933,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(976,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1019,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1062,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1105,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1168,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1211,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1254,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1297,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1340,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(125,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(168,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(211,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(291,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(334,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(377,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(503,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(546,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(589,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(632,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(696,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(739,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(782,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(825,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(934,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(977,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1020,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1063,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1106,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1169,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1212,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1255,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1298,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(1341,46): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,97): warning C4101: 'lote1': variable local sin referencia
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(27,225): warning C4101: 'lote_escogido': variable local sin referencia
 C:\Users\admin\Documents\Proyecto Final 1\Proyecto Final 1\principal.cpp(23,110): warning C4101: 'lote2': variable local sin referencia

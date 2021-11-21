@@ -36,7 +36,8 @@ int main() {
 		opcion1[0] = Menu1();
 		srand(time(NULL));
 		num_aleatorio = 1 + rand() % (60);
-		dinero_almacenado = 1600 + rand() % (38401);
+		//dinero_almacenado = 1600 + rand() % (38401);
+		dinero_almacenado = 45500;
 
 		switch (opcion1[0]) {
 		case '1':
@@ -124,7 +125,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -167,7 +168,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -210,7 +211,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -290,7 +291,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -333,7 +334,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -376,7 +377,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -502,7 +503,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -545,7 +546,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -588,7 +589,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -631,7 +632,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -695,7 +696,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -738,7 +739,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -781,7 +782,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -824,7 +825,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -933,7 +934,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -976,7 +977,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1019,7 +1020,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1062,7 +1063,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1105,7 +1106,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1168,7 +1169,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1211,7 +1212,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1254,7 +1255,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1297,7 +1298,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
@@ -1340,7 +1341,7 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
 										verificador3 = false;
 										_getch();
