@@ -20,7 +20,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, ""); //tildes
 	system("color e0");
-	int opcion2, contador = 0, lotetemp, num_aleatorio, cantidades, num_cantproduct, num_product2, lote1[4][4], lote2[5][5], lote3[6][6], i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0; ;
+	int opcion2, contador = 0, lotetemp, num_aleatorio, cantidades, num_cantproduct, num_product2, lote1[4][4], lote2[5][5], lote3[6][6], i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0;
 	float dinero_almacenado = 0;
 	string usuario_correcto = "user", contra_correcta = "1234", usuario, contra;
 	double precio_lotem1 = 0, precio_lotem2 = 0, precio_lotem3 = 0, precioe_lotem1 = 0, precioe_lotem2 = 0, precioe_lotem3 = 0, precio_loteactual = 0, precio_final1, precio_finaligv;
@@ -103,6 +103,9 @@ int main() {
 
 							if (i13pmc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (i13pmc > 0) {
@@ -146,6 +149,9 @@ int main() {
 
 							if (s21pc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (s21pc > 0) {
@@ -189,6 +195,9 @@ int main() {
 
 							if (xm11uc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (xm11uc > 0) {
@@ -232,6 +241,9 @@ int main() {
 
 							if (ncantprod1 <= 0) {
 								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (ncantprod1 > 0) {
@@ -268,13 +280,13 @@ int main() {
 								}
 							}
 
-							_getch();
-							break;
+						_getch();
+						break;
 
-						}
+					}
 					_getch();
-					//break;
 
+					break;
 					case '2':
 						system("cls");
 						cout << "Efectivo o transferencia.";
@@ -296,6 +308,9 @@ int main() {
 
 							if (i13pmc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (i13pmc > 0) {
@@ -339,6 +354,9 @@ int main() {
 
 							if (s21pc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (s21pc > 0) {
@@ -382,6 +400,9 @@ int main() {
 
 							if (xm11uc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (xm11uc > 0) {
@@ -425,6 +446,9 @@ int main() {
 
 							if (ncantprod1 <= 0) {
 								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (ncantprod1 > 0) {
@@ -462,10 +486,10 @@ int main() {
 								}
 							}
 							_getch();
-							//break;
+							break;
 						
 						}
-						//break;
+						break;
 						//break;
 					}
 
@@ -523,8 +547,8 @@ int main() {
 						cout << "\n\nIngresar número de producto: "; cin >> num_product;
 						num_product2 = atoi(num_product);
 
-						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0) || ((num_product2 <= 0) || (num_product2 > 4))) {
-							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-4]: ";
+						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0) || ((num_product2 <= 0) || (num_product2 > 5))) {
+							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-5]: ";
 							cin >> num_product;
 							num_product2 = atoi(num_product);
 						}
@@ -535,6 +559,9 @@ int main() {
 
 							if (r75800xc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (r75800xc > 0) {
@@ -578,6 +605,9 @@ int main() {
 
 							if (i911900kc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (i911900kc > 0) {
@@ -621,6 +651,9 @@ int main() {
 
 							if (tr3995wxc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (tr3995wxc > 0) {
@@ -664,6 +697,9 @@ int main() {
 
 							if (iw3375c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (iw3375c > 0) {
@@ -702,6 +738,54 @@ int main() {
 
 							_getch();
 							break;
+						
+						//
+						case 5:
+
+							if (ncantprod2 <= 0) {
+								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
+							}
+							else {
+								if (ncantprod2 > 0) {
+									cout << "\nHola4.";
+
+									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+									num_cantproduct = atoi(cant_product);
+
+									while (num_cantproduct > ncantprod2 || num_cantproduct < 1 || num_cantproduct > 2) {
+										cout << "(ERROR) Ingresar un valor en el rango de [1-2]: "; cin >> cant_product;
+										num_cantproduct = atoi(cant_product);
+									}
+
+									ncantprod2 -= num_cantproduct;
+									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = nprecioprod2 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+
+								}
+							}
+							_getch();
+							break;
+
 
 						}
 
@@ -716,8 +800,8 @@ int main() {
 						cout << "\n\nIngresar número de producto: "; cin >> num_product;
 						num_product2 = atoi(num_product);
 
-						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0) || ((num_product2 <= 0) || (num_product2 > 4))) {
-							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-4]: ";
+						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0) || ((num_product2 <= 0) || (num_product2 > 5))) {
+							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-5]: ";
 							cin >> num_product;
 							num_product2 = atoi(num_product);
 						}
@@ -728,6 +812,9 @@ int main() {
 
 							if (r75800xc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (r75800xc > 0) {
@@ -771,6 +858,9 @@ int main() {
 
 							if (i911900kc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (i911900kc > 0) {
@@ -814,6 +904,9 @@ int main() {
 
 							if (tr3995wxc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (tr3995wxc > 0) {
@@ -857,6 +950,9 @@ int main() {
 
 							if (iw3375c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (iw3375c > 0) {
@@ -895,6 +991,55 @@ int main() {
 
 							_getch();
 							break;
+
+							//
+						case 5:
+
+							if (ncantprod2 <= 0) {
+								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
+							}
+							else {
+								if (ncantprod2 > 0) {
+									cout << "\nHola4.";
+
+									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+									num_cantproduct = atoi(cant_product);
+
+									while (num_cantproduct > ncantprod2 || num_cantproduct < 1 || num_cantproduct > 2) {
+										cout << "(ERROR) Ingresar un valor en el rango de [1-2]: "; cin >> cant_product;
+										num_cantproduct = atoi(cant_product);
+									}
+
+									ncantprod2 -= num_cantproduct;
+									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = nprecioprod2 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18)*0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+
+								}
+							}
+							_getch();
+							break;
+
+
 
 						}
 
@@ -966,6 +1111,9 @@ int main() {
 
 							if (rtx3060c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3060c > 0) {
@@ -1009,6 +1157,9 @@ int main() {
 
 							if (rx6800c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rx6800c > 0) {
@@ -1052,6 +1203,9 @@ int main() {
 
 							if (rtx3070tic <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3070tic > 0) {
@@ -1095,6 +1249,9 @@ int main() {
 
 							if (rx6900xtc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rx6900xtc > 0) {
@@ -1138,6 +1295,9 @@ int main() {
 
 							if (rtx3090c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3090c > 0) {
@@ -1176,6 +1336,55 @@ int main() {
 
 							_getch();
 							break;
+
+
+						//case 6
+						case 6:
+
+							if (ncantprod3 <= 0) {
+								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
+							}
+							else {
+								if (ncantprod3 > 0) {
+									cout << "\nHola4.";
+
+									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+									num_cantproduct = atoi(cant_product);
+
+									while (num_cantproduct > ncantprod3 || num_cantproduct < 1 || num_cantproduct > 2) {
+										cout << "(ERROR) Ingresar un valor en el rango de [1-2]: "; cin >> cant_product;
+										num_cantproduct = atoi(cant_product);
+									}
+
+									ncantprod3 -= num_cantproduct;
+									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = nprecioprod3 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+
+								}
+							}
+							_getch();
+							break;
+
 						}
 
 						break;
@@ -1201,6 +1410,9 @@ int main() {
 
 							if (rtx3060c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3060c > 0) {
@@ -1244,6 +1456,9 @@ int main() {
 
 							if (rx6800c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rx6800c > 0) {
@@ -1287,6 +1502,9 @@ int main() {
 
 							if (rtx3070tic <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3070tic > 0) {
@@ -1330,6 +1548,9 @@ int main() {
 
 							if (rx6900xtc <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rx6900xtc > 0) {
@@ -1373,6 +1594,9 @@ int main() {
 
 							if (rtx3090c <= 0) {
 								cout << "Escoger otro producto, este ya se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
 							}
 							else {
 								if (rtx3090c > 0) {
@@ -1411,6 +1635,56 @@ int main() {
 
 							_getch();
 							break;
+
+							//
+						case 6:
+
+							if (ncantprod3 <= 0) {
+								cout << "El producto aún no ha sido creado o se encuentra sin stock.";
+								verificador3 = false;
+								_getch();
+								system("cls");
+							}
+							else {
+								if (ncantprod3 > 0) {
+									cout << "\nHola4.";
+
+									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+									num_cantproduct = atoi(cant_product);
+
+									while (num_cantproduct > ncantprod3 || num_cantproduct < 1 || num_cantproduct > 2) {
+										cout << "(ERROR) Ingresar un valor en el rango de [1-2]: "; cin >> cant_product;
+										num_cantproduct = atoi(cant_product);
+									}
+
+									ncantprod3 -= num_cantproduct;
+									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = nprecioprod3 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18)*0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". \nVolviendo al menú principal.";
+										verificador3 = false;
+										_getch();
+										system("cls");
+									}
+
+								}
+							}
+							_getch();
+							break;
+
+
+
 						}
 
 						break;
