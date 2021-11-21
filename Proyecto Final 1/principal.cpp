@@ -743,7 +743,7 @@ int main() {
 									ncantprod2 -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
 
-									precio_final1 = nprecioprod2 * num_cantproduct;
+									precio_final1 = prod2m[1] * num_cantproduct;
 									precio_finaligv = precio_final1 * 1.18;
 									dinero_almacenado -= precio_finaligv;
 
@@ -988,7 +988,7 @@ int main() {
 									ncantprod2 -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
 
-									precio_final1 = nprecioprod2 * num_cantproduct;
+									precio_final1 = prod2m[1] * num_cantproduct;
 									precio_finaligv = (precio_final1 * 1.18)*0.95;
 									dinero_almacenado -= precio_finaligv;
 
