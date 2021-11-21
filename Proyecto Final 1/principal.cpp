@@ -129,6 +129,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										i13pmc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -175,6 +176,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										s21pc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -221,6 +223,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										xm11uc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -267,6 +270,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod1 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -334,6 +338,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										i13pmc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -380,6 +385,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										s21pc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -426,6 +432,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										xm11uc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -472,6 +479,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod1 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -585,6 +593,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										r75800xc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -631,6 +640,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										i911900kc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -677,6 +687,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										tr3995wxc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -723,6 +734,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										iw3375c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -770,6 +782,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod2 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -838,6 +851,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										r75800xc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -884,6 +898,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										i911900kc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -930,6 +945,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										tr3995wxc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -976,6 +992,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										iw3375c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1023,6 +1040,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod2 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1099,8 +1117,8 @@ int main() {
 						cout << "\n\nIngresar número de producto: "; cin >> num_product;
 						num_product2 = atoi(num_product);
 
-						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0) || ((num_product2 <= 0) || (num_product2 > 5))) {
-							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-5]: ";
+						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0 && strcmp(num_product, n6) != 0) || ((num_product2 <= 0) || (num_product2 > 6))) {
+							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-6]: ";
 							cin >> num_product;
 							num_product2 = atoi(num_product);
 						}
@@ -1137,6 +1155,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3060c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1183,6 +1202,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rx6800c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1229,6 +1249,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3070tic += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1275,6 +1296,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rx6900xtc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1321,6 +1343,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3090c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1369,6 +1392,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod3 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1398,8 +1422,8 @@ int main() {
 						cout << "\n\nIngresar número de producto: "; cin >> num_product;
 						num_product2 = atoi(num_product);
 
-						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0) || ((num_product2 <= 0) || (num_product2 > 5))) {
-							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-5]: ";
+						while ((strcmp(num_product, n1) != 0 && strcmp(num_product, n2) != 0 && strcmp(num_product, n3) != 0 && strcmp(num_product, n4) != 0 && strcmp(num_product, n5) != 0 && strcmp(num_product, n6) != 0) || ((num_product2 <= 0) || (num_product2 > 6))) {
+							cout << "\nPor favor ingresar un número que se encuentre dentro del rango [1-6]: ";
 							cin >> num_product;
 							num_product2 = atoi(num_product);
 						}
@@ -1436,6 +1460,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3060c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1482,6 +1507,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rx6800c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1528,6 +1554,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3070tic += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1574,6 +1601,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rx6900xtc += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1620,6 +1648,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										rtx3090c += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
@@ -1667,6 +1696,7 @@ int main() {
 									system("cls");
 									if (dinero_almacenado < precio_finaligv && dinero_almacenado < 0) {
 										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto. \nVolviendo al menú principal.";
+										ncantprod3 += num_cantproduct;
 										verificador3 = false;
 										_getch();
 										system("cls");
