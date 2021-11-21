@@ -639,40 +639,57 @@ int main() {
 											i13pmc -= num_cantproduct;
 											cout << "Cantidad correcta de productos.";
 										}
-
 									}
 
 									_getch();
 									break;
 
-								case 2: cout << "\nHola2.";
-
-									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-									num_cantproduct = atoi(cant_product);
-
-									while (num_cantproduct > s21pc || num_cantproduct < 1) {
-										cout << "(ERROR) Ingresar un valor en el rango de [1-"<<s21pc<<"]: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
+								case 2:
+									
+									if (s21pc <= 0) {
+										cout << "Escoger otro producto, este ya se encuentra sin stock.";
 									}
+									else {
+										if (s21pc > 0) {
+											cout << "\nHola2.";
 
-									s21pc -= num_cantproduct;
-									cout << "Cantidad correcta de productos.";
+											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+											num_cantproduct = atoi(cant_product);
+
+											while (num_cantproduct > s21pc || num_cantproduct < 1) {
+												cout << "(ERROR) Ingresar un valor en el rango de [1-" << s21pc << "]: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+											}
+
+											s21pc -= num_cantproduct;
+											cout << "Cantidad correcta de productos.";
+										}
+									}
 
 									_getch();
 									break;
 
-								case 3: cout << "\nHola3.";
-
-									cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-									num_cantproduct = atoi(cant_product);
-
-									while (num_cantproduct > xm11uc || num_cantproduct < 1) {
-										cout << "(ERROR) Ingresar un valor en el rango de [1-"<<xm11uc<<"]: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
+								case 3: 
+									
+									if (xm11uc <= 0) {
+										cout << "Escoger otro producto, este ya se encuentra sin stock.";
 									}
+									else {
+										if (xm11uc > 0) {
+											cout << "\nHola3.";
 
-									xm11uc -= num_cantproduct;
-									cout << "Cantidad correcta de productos.";
+											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+											num_cantproduct = atoi(cant_product);
+
+											while (num_cantproduct > xm11uc || num_cantproduct < 1) {
+												cout << "(ERROR) Ingresar un valor en el rango de [1-" << xm11uc << "]: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+											}
+
+											xm11uc -= num_cantproduct;
+											cout << "Cantidad correcta de productos.";
+										}
+									}
 
 									_getch();
 									break;
@@ -698,66 +715,102 @@ int main() {
 									}
 
 									switch (num_product2) {
-									case 1: cout << "\nHola1.";
-
-										cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
-
-										while (num_cantproduct > r75800xc || num_cantproduct < 1) {
-											cout << "(ERROR) Ingresar un valor en el rango de [1-"<<r75800xc<<"]: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
+									case 1:
+										
+										if (r75800xc <= 0) {
+											cout << "Escoger otro producto, este ya se encuentra sin stock.";
 										}
+										else {
+											if (r75800xc > 0) {
+												cout << "\nHola1.";
 
-										r75800xc -= num_cantproduct;
-										cout << "Cantidad correcta de productos.";
+												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+
+												while (num_cantproduct > r75800xc || num_cantproduct < 1) {
+													cout << "(ERROR) Ingresar un valor en el rango de [1-" << r75800xc << "]: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+												}
+
+												r75800xc -= num_cantproduct;
+												cout << "Cantidad correcta de productos.";
+											}
+										}
 
 										_getch();
 										break;
 
-									case 2: cout << "\nHola2.";
-
-										cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
-
-										while (num_cantproduct > i911900kc || num_cantproduct < 1) {
-											cout << "(ERROR) Ingresar un valor en el rango de [1-"<<i911900kc<<"]: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
+									case 2:
+										
+										if (i911900kc <= 0) {
+											cout << "Escoger otro producto, este ya se encuentra sin stock.";
 										}
+										else {
+											if (i911900kc > 0) {
+												cout << "\nHola2.";
 
-										i911900kc -= num_cantproduct;
-										cout << "Cantidad correcta de productos.";
+												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+
+												while (num_cantproduct > i911900kc || num_cantproduct < 1) {
+													cout << "(ERROR) Ingresar un valor en el rango de [1-" << i911900kc << "]: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+												}
+
+												i911900kc -= num_cantproduct;
+												cout << "Cantidad correcta de productos.";
+											}
+										}			
 
 										_getch();
 										break;
 
-									case 3: cout << "\nHola3.";
-
-										cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
-
-										while (num_cantproduct > tr3995wxc || num_cantproduct < 1) {
-											cout << "(ERROR) Ingresar un valor en el rango de [1-"<<tr3995wxc<<"]: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
+									case 3:
+										
+										if (tr3995wxc <= 0) {
+											cout << "Escoger otro producto, este ya se encuentra sin stock.";
 										}
+										else {
+											if (tr3995wxc > 0) {
+												cout << "\nHola3.";
 
-										tr3995wxc -= num_cantproduct;
-										cout << "Cantidad correcta de productos.";
+												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+
+												while (num_cantproduct > tr3995wxc || num_cantproduct < 1) {
+													cout << "(ERROR) Ingresar un valor en el rango de [1-" << tr3995wxc << "]: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+												}
+
+												tr3995wxc -= num_cantproduct;
+												cout << "Cantidad correcta de productos.";
+											}
+										}
 
 										_getch();
 										break;
 
-									case 4: cout << "\nHola4.";
-
-										cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-										num_cantproduct = atoi(cant_product);
-
-										while (num_cantproduct > iw3375c || num_cantproduct < 1) {
-											cout << "(ERROR) Ingresar un valor en el rango de [1-"<<iw3375c<<"]: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
+									case 4:
+										
+										if (iw3375c <= 0) {
+											cout << "Escoger otro producto, este ya se encuentra sin stock.";
 										}
+										else {
+											if (iw3375c > 0) {
+												cout << "\nHola4.";
 
-										iw3375c -= num_cantproduct;
-										cout << "Cantidad correcta de productos.";
+												cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+												num_cantproduct = atoi(cant_product);
+
+												while (num_cantproduct > iw3375c || num_cantproduct < 1) {
+													cout << "(ERROR) Ingresar un valor en el rango de [1-" << iw3375c << "]: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+												}
+
+												iw3375c -= num_cantproduct;
+												cout << "Cantidad correcta de productos.";
+											}
+										}
 
 										_getch();
 										break;
@@ -783,81 +836,127 @@ int main() {
 										}
 
 										switch (num_product2) {
-										case 1: cout << "\nHola1.";
-
-											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
-
-											while (num_cantproduct > rtx3060c || num_cantproduct < 1) {
-												cout << "(ERROR) Ingresar un valor en el rango de [1-"<<rtx3060c<<"]: "; cin >> cant_product;
-												num_cantproduct = atoi(cant_product);
+										case 1:
+											
+											if (rtx3060c <= 0) {
+												cout << "Escoger otro producto, este ya se encuentra sin stock.";
 											}
+											else {
+												if (rtx3060c > 0) {
+													cout << "\nHola1.";
 
-											rtx3060c -= num_cantproduct;
-											cout << "Cantidad correcta de productos.";
+													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+
+													while (num_cantproduct > rtx3060c || num_cantproduct < 1) {
+														cout << "(ERROR) Ingresar un valor en el rango de [1-" << rtx3060c << "]: "; cin >> cant_product;
+														num_cantproduct = atoi(cant_product);
+													}
+
+													rtx3060c -= num_cantproduct;
+													cout << "Cantidad correcta de productos.";
+												}
+											}
 
 											_getch();
 											break;
 
-										case 2: cout << "\nHola2.";
-
-											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
-
-											while (num_cantproduct > rx6800c || num_cantproduct < 1) {
-												cout << "(ERROR) Ingresar un valor en el rango de [1-"<<rx6800c<<"]: "; cin >> cant_product;
-												num_cantproduct = atoi(cant_product);
+										case 2:
+											
+											if (rx6800c <= 0) {
+												cout << "Escoger otro producto, este ya se encuentra sin stock.";
 											}
+											else {
+												if (rx6800c > 0) {
+													cout << "\nHola2.";
 
-											rx6800c -= num_cantproduct;
-											cout << "Cantidad correcta de productos.";
+													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+
+													while (num_cantproduct > rx6800c || num_cantproduct < 1) {
+														cout << "(ERROR) Ingresar un valor en el rango de [1-" << rx6800c << "]: "; cin >> cant_product;
+														num_cantproduct = atoi(cant_product);
+													}
+
+													rx6800c -= num_cantproduct;
+													cout << "Cantidad correcta de productos.";
+												}
+											}
 
 											_getch();
 											break;
 
-										case 3: cout << "\nHola3.";
-
-											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
-
-											while (num_cantproduct > rtx3070tic || num_cantproduct < 1) {
-												cout << "(ERROR) Ingresar un valor en el rango de [1-"<<rtx3070tic<<"]: "; cin >> cant_product;
-												num_cantproduct = atoi(cant_product);
+										case 3:
+											
+											if (rtx3070tic <= 0) {
+												cout << "Escoger otro producto, este ya se encuentra sin stock.";
 											}
+											else {
+												if(rtx3070tic > 0){
+													cout << "\nHola3.";
 
-											rtx3070tic -= num_cantproduct;
-											cout << "Cantidad correcta de productos.";
+													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+
+													while (num_cantproduct > rtx3070tic || num_cantproduct < 1) {
+														cout << "(ERROR) Ingresar un valor en el rango de [1-" << rtx3070tic << "]: "; cin >> cant_product;
+														num_cantproduct = atoi(cant_product);
+													}
+
+													rtx3070tic -= num_cantproduct;
+													cout << "Cantidad correcta de productos.";
+												}
+											}
 
 											_getch();
 											break;
 
-										case 4: cout << "\nHola4.";
-
-											cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
-
-											while (num_cantproduct > rx6900xtc || num_cantproduct < 1) {
-												cout << "(ERROR) Ingresar un valor en el rango de [1-"<<rx6900xtc<<"]: "; cin >> cant_product;
-												num_cantproduct = atoi(cant_product);
+										case 4:
+											
+											if (rx6900xtc <= 0) {
+												cout << "Escoger otro producto, este ya se encuentra sin stock.";
 											}
+											else {
+												if (rx6900xtc > 0) {
+													cout << "\nHola4.";
 
-											rx6900xtc -= num_cantproduct;
-											cout << "Cantidad correcta de productos.";
+													cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+
+													while (num_cantproduct > rx6900xtc || num_cantproduct < 1) {
+														cout << "(ERROR) Ingresar un valor en el rango de [1-" << rx6900xtc << "]: "; cin >> cant_product;
+														num_cantproduct = atoi(cant_product);
+													}
+
+													rx6900xtc -= num_cantproduct;
+													cout << "Cantidad correcta de productos.";
+												}
+											}
 
 											_getch();
 											break;
 
-										case 5: cout << " \nHola5.";
-											cout << "Ingresar cantidad de producto escogido: "; cin >> cant_product;
-											num_cantproduct = atoi(cant_product);
-
-											while (num_cantproduct > rtx3090c || num_cantproduct < 1) {
-												cout << "(ERROR) Ingresar un valor en el rango de [1-"<<rtx3090c<<"]: "; cin >> cant_product;
-												num_cantproduct = atoi(cant_product);
+										case 5:
+											
+											if (rtx3090c <= 0) {
+												cout << "Escoger otro producto, este ya se encuentra sin stock.";
 											}
+											else {
+												if (rtx3090c > 0) {
+													cout << " \nHola5.";
 
-											rtx3090c -= num_cantproduct;
-											cout << "Cantidad correcta de productos.";
+													cout << "Ingresar cantidad de producto escogido: "; cin >> cant_product;
+													num_cantproduct = atoi(cant_product);
+
+													while (num_cantproduct > rtx3090c || num_cantproduct < 1) {
+														cout << "(ERROR) Ingresar un valor en el rango de [1-" << rtx3090c << "]: "; cin >> cant_product;
+														num_cantproduct = atoi(cant_product);
+													}
+
+													rtx3090c -= num_cantproduct;
+													cout << "Cantidad correcta de productos.";
+												}
+											}
 
 											_getch();
 											break;
