@@ -124,7 +124,13 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+
+									}
 								}
 							}
 
@@ -156,7 +162,13 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+
+									}
 								}
 							}
 
@@ -188,7 +200,13 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+
+									}
 								}
 							}
 
@@ -257,7 +275,13 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+
+									}
 								}
 							}
 
@@ -289,7 +313,13 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+
+									}
 								}
 							}
 
@@ -321,7 +351,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -436,7 +471,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -468,7 +508,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -500,7 +545,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -532,7 +582,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -585,7 +640,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -617,7 +677,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -649,7 +714,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -681,7 +751,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -779,7 +854,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -811,7 +891,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -843,7 +928,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -875,7 +965,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -907,7 +1002,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -959,7 +1059,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -991,7 +1096,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -1023,7 +1133,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -1055,7 +1170,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
@@ -1087,7 +1207,12 @@ int main() {
 									dinero_almacenado -= precio_finaligv;
 
 									system("cls");
-									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									if (dinero_almacenado < precio_finaligv || dinero_almacenado < 0) {
+										cout << "No tiene el suficiente dinero para comprar la cantidad ingresada de ese producto.";
+									}
+									else {
+										cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
+									}
 								}
 							}
 
