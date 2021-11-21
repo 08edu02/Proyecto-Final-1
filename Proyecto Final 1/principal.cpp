@@ -36,8 +36,7 @@ int main() {
 		opcion1[0] = Menu1();
 		srand(time(NULL));
 		num_aleatorio = 1 + rand() % (60);
-		//dinero_almacenado = 1600 + rand() % (38401);
-		dinero_almacenado = 45500;
+		dinero_almacenado = 1600 + rand() % (38401);
 
 		switch (opcion1[0]) {
 		case '1':
@@ -227,26 +226,8 @@ int main() {
 							}
 
 							_getch();
-							//break;
 
 						}
-
-						/*cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
-						//	cin.get(); 
-						//	cin.getline(cant_product, 2, '\n');
-						num_cantproduct = atoi(cant_product);
-
-						if (strcmp(cant_product, n1) != 0 && strcmp(cant_product, n2) != 0) {
-							do {
-								cout << "\nSiendo usuario solo puede comprar dos productos como máximo: "; cin >> cant_product;
-								//	cin.get(); 
-								//	cin.getline(cant_product, 2, '\n');
-								num_cantproduct = atoi(cant_product);
-							} while (num_cantproduct > 2 || num_cantproduct <= 0);
-						}
-
-						system("cls");
-						cout << "Cantidad correcta de productos."; */
 						break;
 
 					case '2':
@@ -1448,8 +1429,6 @@ int main() {
 							verificador2 = true;
 							cout << "Lote número 1, que pertenece a celulares: ";
 							Lote1(i13pm, s21p, xm11u, i13pmc, s21pc, xm11uc, nombreprod1, ncantprod1, nprecioprod1);
-							//system("pause");
-							//cin.get();
 							_getch();
 						}
 						else {
@@ -1458,8 +1437,6 @@ int main() {
 								verificador2 = true;
 								cout << "Lote número 2, que pertenece a procesadores: ";
 								Lote2(r75800x, i911900k, tr3995wx, iw3375, r75800xc, i911900kc, tr3995wxc, iw3375c, nombreprod2, ncantprod2, nprecioprod2);
-								//system("pause");
-								//cin.get();
 								_getch();
 							}
 							else {
@@ -1468,8 +1445,6 @@ int main() {
 									verificador2 = true;
 									cout << "Lote número 3, que pertenece a tarjetas de vídeo: ";
 									Lote3(rtx3060, rx6800, rtx3070ti, rx6900xt, rtx3090, rtx3060c, rx6800c, rtx3070tic, rx6900xtc, rtx3090c, nombreprod3, ncantprod3, nprecioprod3);
-									//system("pause");
-									//cin.get();
 									_getch();
 								}
 							}
@@ -1591,7 +1566,6 @@ int main() {
 								cout << "Lote número 1, que pertenece a celulares: ";
 								Lote1(i13pm, s21p, xm11u, i13pmc, s21pc, xm11uc, nombreprod1, ncantprod1, nprecioprod1);
 								cout << "\n\n¿Que desea comprar y en que cantidad?";
-								//Lote1(i13pm, s21p, xm11u);
 
 								cout << "\n\nIngresar número de producto: "; cin >> num_product;
 								num_product2 = atoi(num_product);
@@ -1996,21 +1970,15 @@ int main() {
 
 						cout << "\nAhora ingresar la cantidad de " << nombreprod1 << ": ";
 						cin >> cantprod1;
-						//cin.get();
-						//cin.getline(cantprod1, 1);
 						ncantprod1 = atoi(cantprod1);
 
 						while (ncantprod1 < 1 || ncantprod1 > 10) {
 							cout << "\nIngresar un valor válido [1-10]: "; cin >> cantprod1;
-							//cin.get();
-							//cin.getline(cantprod1, 2);
 							ncantprod1 = atoi(cantprod1);
 						}
 
 						cout << "\nIngresar el precio por unidad del producto 1: ";
 						cin >> precioprod1;
-						//cin.get();
-						//cin.getline(precioprod1,1);
 						nprecioprod1 = atoi(precioprod1);
 
 						while (nprecioprod1 < 1 || nprecioprod1 > 9999) {
@@ -2028,21 +1996,15 @@ int main() {
 
 						cout << "\nAhora ingresar la cantidad de " << nombreprod2 << ": ";
 						cin >> cantprod2;
-						//cin.get();
-						//cin.getline(cantprod2, 1);
 						ncantprod2 = atoi(cantprod2);
 
 						while (ncantprod2 < 1 || ncantprod2 > 10) {
 							cout << "\nIngresar un valor válido [1-10]: "; cin >> cantprod2;
-							//cin.get();
-							//cin.getline(cantprod2, 2);
 							ncantprod2 = atoi(cantprod2);
 						}
 
 						cout << "\nIngresar el precio por unidad del producto 2: ";
 						cin >> precioprod2;
-						//cin.get();
-						//cin.getline(precioprod2,1);
 						nprecioprod2 = atoi(precioprod2);
 
 						while (nprecioprod2 < 1 || nprecioprod2 > 9999) {
@@ -2060,21 +2022,15 @@ int main() {
 
 						cout << "\nAhora ingresar la cantidad de " << nombreprod3 << ": ";
 						cin >> cantprod3;
-						//cin.get();
-						//cin.getline(cantprod3, 1);
 						ncantprod3 = atoi(cantprod3);
 
 						while (ncantprod3 < 1 || ncantprod3 > 10) {
 							cout << "\nIngresar un valor válido [1-10]: "; cin >> cantprod3;
-							//cin.get();
-							//cin.getline(cantprod3, 2);
 							ncantprod3 = atoi(cantprod3);
 						}
 
 						cout << "\nIngresar el precio por unidad del producto 3: ";
 						cin >> precioprod3;
-						//cin.get();
-						//cin.getline(precioprod3,1);
 						nprecioprod3 = atoi(precioprod3);
 
 						while (nprecioprod3 < 1 || nprecioprod3 > 9999) {
