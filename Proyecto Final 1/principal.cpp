@@ -20,10 +20,10 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, ""); //tildes
 	system("color e0");
-	int opcion2, contador = 0, lotetemp, num_aleatorio, cantidades, num_cantproduct, num_product2, lote1[4][4], lote2[5][5], lote3[6][6], precio_finaligv[10][10], i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0; ;
+	int opcion2, contador = 0, lotetemp, num_aleatorio, cantidades, num_cantproduct, num_product2, lote1[4][4], lote2[5][5], lote3[6][6], i13pmc = 9, s21pc = 7, xm11uc = 8, r75800xc = 5, i911900kc = 7, tr3995wxc = 11, iw3375c = 9, rtx3060c = 2, rx6800c = 4, rtx3070tic = 6, rx6900xtc = 7, rtx3090c = 15, ncantprod1 = 0, ncantprod2 = 0, ncantprod3 = 0, nprecioprod1 = 0, nprecioprod2 = 0, nprecioprod3 = 0; ;
 	float dinero_almacenado = 0;
 	string usuario_correcto = "user", contra_correcta = "1234", usuario, contra;
-	double precio_lotem1 = 0, precio_lotem2 = 0, precio_lotem3 = 0, precioe_lotem1 = 0, precioe_lotem2 = 0, precioe_lotem3 = 0, precio_loteactual = 0;
+	double precio_lotem1 = 0, precio_lotem2 = 0, precio_lotem3 = 0, precioe_lotem1 = 0, precioe_lotem2 = 0, precioe_lotem3 = 0, precio_loteactual = 0, precio_final1, precio_finaligv;
 	char nombre[55], compra_si[] = "S", compra_opcion[2], compra_no[] = "N", metodo_pago, opcion3[2], opcion1[2], dia[2], num_product[2], cant_product[3], n1[] = "1", n2[] = "2", n3[] = "3", n4[] = "4", n5[] = "5", n6[] = "6", lote_escogido, opcion_compraempresa[2], nombreprod1[55], nombreprod2[55], nombreprod3[55], cantprod1[2], cantprod2[2], cantprod3[2], precioprod1[4], precioprod2[4], precioprod3[4];
 	bool verificador1 = false, verificador2 = false, verificador3 = true;
 	double i13pm = 6289.67, s21p = 3989.00, xm11u = 5475.24, r75800x = 1545.47, i911900k = 2139.82, tr3995wx = 20843.62, iw3375 = 17696.82, rtx3060 = 2438.73, rx6800 = 3540.11, rtx3070ti = 3618.78, rx6900xt = 6686.91, rtx3090 = 9243.69;
@@ -118,6 +118,13 @@ int main() {
 
 									i13pmc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = i13pm * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -143,6 +150,13 @@ int main() {
 
 									s21pc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = s21p * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -168,6 +182,13 @@ int main() {
 
 									xm11uc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = xm11uc * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -175,9 +196,6 @@ int main() {
 							break;
 
 						}
-
-
-
 
 						/*cout << "\nIngresar cantidad de producto escogido: "; cin >> cant_product;
 						//	cin.get(); 
@@ -233,6 +251,13 @@ int main() {
 
 									i13pmc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = i13pm * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18)*0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -258,6 +283,13 @@ int main() {
 
 									s21pc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = s21p * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -283,6 +315,13 @@ int main() {
 
 									xm11uc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = xm11u * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -391,6 +430,13 @@ int main() {
 
 									r75800xc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = r75800x * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -416,6 +462,13 @@ int main() {
 
 									i911900kc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = i911900k * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -441,6 +494,13 @@ int main() {
 
 									tr3995wxc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = tr3995wx * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -466,6 +526,13 @@ int main() {
 
 									iw3375c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = iw3375 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -512,6 +579,13 @@ int main() {
 
 									r75800xc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = r75800x * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18)*0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -537,6 +611,13 @@ int main() {
 
 									i911900kc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = i911900k * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -562,6 +643,13 @@ int main() {
 
 									tr3995wxc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = tr3995wx * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -587,6 +675,13 @@ int main() {
 
 									iw3375c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = iw3375 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -678,6 +773,13 @@ int main() {
 
 									rtx3060c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3060 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -703,6 +805,13 @@ int main() {
 
 									rx6800c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rx6800 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -728,6 +837,13 @@ int main() {
 
 									rtx3070tic -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3070ti * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -753,6 +869,13 @@ int main() {
 
 									rx6900xtc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rx6900xt * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -778,6 +901,13 @@ int main() {
 
 									rtx3090c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3090 * num_cantproduct;
+									precio_finaligv = precio_final1 * 1.18;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -823,6 +953,13 @@ int main() {
 
 									rtx3060c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3060 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18)*0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -848,6 +985,13 @@ int main() {
 
 									rx6800c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rx6800 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -873,6 +1017,13 @@ int main() {
 
 									rtx3070tic -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3070ti * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -898,6 +1049,13 @@ int main() {
 
 									rx6900xtc -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rx6900xt * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
@@ -923,6 +1081,13 @@ int main() {
 
 									rtx3090c -= num_cantproduct;
 									cout << "Cantidad correcta de productos.";
+
+									precio_final1 = rtx3090 * num_cantproduct;
+									precio_finaligv = (precio_final1 * 1.18) * 0.95;
+									dinero_almacenado -= precio_finaligv;
+
+									system("cls");
+									cout << "Acaba de comprar ese o esos productos por un total de: S/." << precio_finaligv << ". \nPor lo que ahora tiene almacenado una cantidad de: S/." << dinero_almacenado << ". ";
 								}
 							}
 
