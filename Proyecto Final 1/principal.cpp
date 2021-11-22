@@ -60,7 +60,7 @@ int main() {
 
 				cout << "\n\n¿Desea comprar algo? (S/N): ";
 				cin.get();
-				cin.getline(compra_opcion, 2);//, '\n');
+				cin.getline(compra_opcion, 2);
 				_strupr_s(compra_opcion);
 
 				while ((strcmp(compra_opcion, compra_si) != 0) && (strcmp(compra_opcion, compra_no) != 0)) {
